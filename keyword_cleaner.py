@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Title of the app
-st.title("Keyword Cleaner Tool")
+st.title("MV TAM Keyword Filtering")
 
 # Step 1: Upload CSV file
 uploaded_file = st.file_uploader("Upload a CSV file with keywords", type=["csv"])
